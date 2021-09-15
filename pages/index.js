@@ -1,82 +1,52 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="container mx-auto">
       <Head>
-        <title>Create Next App</title>
+        <title>Mario Fink • About Me</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
-          </code>
+      <main className="py-16 container mx-auto px-6 max-w-prose min-h-screen">
+        <h1 className="text-6xl font-bold">About Me</h1>
+        <p className="mt-3 text-xl">
+          Hi, my name is Mario Fink. I currently work as a web developer at
+          Goodyear Dunlop Tires in Fulda (Germany). Together with my wife and my
+          two sons I live in the beautiful Rhön – a rural area in the midst of
+          Germany.
+        </p>
+        <h2 className="text-3xl font-bold mt-6">Education</h2>
+        <p className="mt-3 text-xl">
+          I finished my technical diploma in Economics & Management in 1999.
+          After spending a year in community service (aka. Zivildienst) I
+          started an apprenticeship as IT specialist at Goodyear Dunlop Tires
+          that I finished successfully in 2003. I then accepted a job offering
+          at the same company to work on their B2B shop as a web developer.
         </p>
 
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+        <h2 className="text-3xl font-bold mt-6">Work Experience</h2>
+        <p className="mt-3 text-xl">
+          Since 2003 I have been working in a 10-person team as lead frontend
+          developer and UX designer – creating a B2B shop that is used
+          throughout Europe, Middle East and South Africa (EMEA). My main
+          responsibilities are the design and the implementation of the user
+          interface. While doing that I am communicating with our European
+          business stakeholders as well as our near and off-shore development
+          partners.
+        </p>
       </main>
 
       <footer className="flex items-center justify-center w-full h-24 border-t">
         <a
           className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="//mariofink.de"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
+          MarioFink.de
         </a>
       </footer>
     </div>
-  )
+  );
 }
