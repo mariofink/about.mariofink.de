@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 
 export default function CV() {
   return (
@@ -15,16 +16,7 @@ export default function CV() {
         <h1 className="text-6xl font-bold">CV/Resume</h1>
       </main>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="//mariofink.de"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          MarioFink.de
-        </a>
-      </footer>
+      <Footer />
     </div>
   );
 }
