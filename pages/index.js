@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Navigation from "../components/Navigation";
 
 export default function Home() {
   return (
@@ -8,7 +9,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="py-16 container mx-auto px-6 max-w-prose min-h-screen">
+      <Navigation />
+
+      <main className="py-16 container mx-auto px-6 max-w-prose">
         <h1 className="text-6xl font-bold">About Me</h1>
         <p className="mt-3 text-xl">
           Hi, my name is Mario Fink. I currently work as a web developer at
