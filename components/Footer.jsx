@@ -51,19 +51,19 @@ const PhoneIcon = () => (
 
 export default function Footer() {
   return (
-    <footer className="flex gap-6 items-center justify-center w-full h-24 border-t">
+    <footer className="sm:flex sm:gap-6 sm:items-center sm:justify-center px-6 py-6 mx-auto max-w-prose sm:h-24 border-t">
       <a
-        className="flex text-green-500"
+        className="flex text-green-500 py-1"
         href="//mariofink.de"
         target="_blank"
         rel="noopener noreferrer"
       >
         <HomeIcon /> MarioFink.de
       </a>
-      <a className="flex text-green-500" href="mailto:info@mariofink.de">
+      <a className="flex text-green-500 py-1" href="mailto:info@mariofink.de">
         <MailIcon /> info@mariofink.de
       </a>
-      <a className="flex text-green-500" href="tel:1234">
+      <a className="flex text-green-500 py-1" href="tel:1234">
         <PhoneIcon /> 12345
       </a>
     </footer>
