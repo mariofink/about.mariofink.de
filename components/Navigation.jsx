@@ -5,6 +5,7 @@ export default function Navigation() {
     <nav className="container mx-auto px-6 mt-6 max-w-prose">
       <NavItem caption="About Me" href="/" />
       <NavItem caption="CV/Resume" href="/cv" />
+      <NavItem caption="Tools & Technologies" href="/tech" />
     </nav>
   );
 }
