@@ -15,10 +15,10 @@ export default function Home() {
       <main className="py-16 container mx-auto px-6 max-w-prose">
         <h1 className="text-6xl font-bold">About Me</h1>
         <p className="mt-3 text-xl">
-          Hi, my name is Mario Fink. I currently work as a web developer at
-          Goodyear Dunlop Tires in Fulda (Germany). Together with my wife and my
-          two sons I live in the beautiful Rhön – a rural area in the midst of
-          Germany.
+          Hi, my name is Mario Fink 👋🏻
+          <br /> I live in the beautiful Rhön (a rural area in the midst of
+          Germany) together with my wife and my two sons. Currently I work as a
+          lead frontend developer at Goodyear Dunlop Tires in Fulda.
         </p>
         <h2 className="text-3xl font-bold mt-6">Education</h2>
         <p className="mt-3 text-xl">
