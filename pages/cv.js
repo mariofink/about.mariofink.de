@@ -23,7 +23,7 @@ export default function CV() {
 
       <Navigation />
 
-      <main className="py-16 container mx-auto px-6 max-w-prose">
+      <main className="py-8 container mx-auto px-6 max-w-prose">
         <h1 className="text-6xl font-bold">CV/Resume</h1>
 
         <SubHeading>Work Experience</SubHeading>

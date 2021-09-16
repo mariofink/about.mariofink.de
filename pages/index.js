@@ -12,7 +12,7 @@ export default function Home() {
 
       <Navigation />
 
-      <main className="py-16 container mx-auto px-6 max-w-prose">
+      <main className="py-8 container mx-auto px-6 max-w-prose">
         <h1 className="text-6xl font-bold">About Me</h1>
         <p className="mt-3 text-xl">
           Hi, my name is Mario Fink 👋🏻

@@ -2,10 +2,10 @@ import NavItem from "./NavItem";
 
 export default function Navigation() {
   return (
-    <nav className="container mx-auto px-6 mt-6 max-w-prose">
+    <nav className="flex justify-center sm:gap-6 sm:px-6 mt-3">
       <NavItem caption="About Me" href="/" />
       <NavItem caption="CV/Resume" href="/cv" />
-      <NavItem caption="Tools & Technologies" href="/tech" />
+      <NavItem caption="Tools & Tech" href="/tech" />
     </nav>
   );
 }
