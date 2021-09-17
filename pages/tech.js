@@ -2,6 +2,7 @@ import DocumentHead from "../components/DocumentHead";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import SubHeading from "../components/Subheading";
+import Heading from "../components/Heading";
 
 export default function Tech() {
   return (
@@ -11,7 +12,7 @@ export default function Tech() {
       <Navigation />
 
       <main className="py-8 container mx-auto px-6 max-w-prose">
-        <h1 className="text-3xl sm:text-6xl font-bold">Tools & Technologies</h1>
+        <Heading>Tools & Technologies</Heading>
         <p className="mt-6">
           The frontend development world is still a fast-changing environment.
           Today’s hot stuff is tomorrow’s legacy technology.

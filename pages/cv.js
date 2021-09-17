@@ -3,6 +3,7 @@ import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import SubHeading from "../components/Subheading";
 import TabularEntry from "../components/TabularEntry";
+import Heading from "../components/Heading";
 
 export default function CV() {
   return (
@@ -12,7 +13,7 @@ export default function CV() {
       <Navigation />
 
       <main className="py-8 container mx-auto px-6 max-w-prose">
-        <h1 className="text-6xl font-bold">CV/Resume</h1>
+        <Heading>CV/Resume</Heading>
 
         <SubHeading>Work Experience</SubHeading>
         <dl>

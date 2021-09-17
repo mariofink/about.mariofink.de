@@ -1,6 +1,7 @@
 import DocumentHead from "../components/DocumentHead";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
+import Heading from "../components/Heading";
 import SubHeading from "../components/Subheading";
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
       <Navigation />
 
       <main className="py-8 container mx-auto px-6 max-w-prose">
-        <h1 className="text-6xl font-bold">About Me</h1>
+        <Heading>About Me</Heading>
         <p className="mt-3 text-xl">
           Hi, my name is Mario Fink 👋🏻
           <br /> I live in the beautiful Rhön (a rural area in the midst of
