@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavItem renders 1`] = `
+<a
+  className="py-4 px-2 font-semibold text-green-500"
+  href="/"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  my caption
+</a>
+`;

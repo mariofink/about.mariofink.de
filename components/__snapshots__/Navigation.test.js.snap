@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation renders 1`] = `
+<nav
+  className="flex justify-center sm:gap-6 sm:px-6 mt-3"
+>
+  <a
+    className="py-4 px-2 font-semibold text-green-500"
+    href="/"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    About Me
+  </a>
+  <a
+    className="py-4 px-2 font-semibold text-green-500"
+    href="/cv"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    CV/Resume
+  </a>
+  <a
+    className="py-4 px-2 font-semibold text-green-500"
+    href="/tech"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    Tools & Tech
+  </a>
+</nav>
+`;
