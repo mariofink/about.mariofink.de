@@ -1,17 +1,8 @@
 import Head from "next/head";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
-
-const SubHeading = ({ children }) => (
-  <h2 className="mt-6 mb-3 text-3xl font-bold">{children}</h2>
-);
-
-const TabularEntry = ({ term, children }) => (
-  <div class="py-3 sm:grid sm:grid-cols-3 sm:gap-3 sm:px-3">
-    <dt class="text-sm font-medium text-gray-500">{term}</dt>
-    <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">{children}</dd>
-  </div>
-);
+import SubHeading from "../components/Subheading";
+import TabularEntry from "../components/TabularEntry";
 
 export default function CV() {
   return (

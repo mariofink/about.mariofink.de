@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
+import SubHeading from "../components/Subheading";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
           Germany) together with my wife and my two sons. Currently I work as a
           lead frontend developer at Goodyear Dunlop Tires in Fulda.
         </p>
-        <h2 className="text-3xl font-bold mt-6">Education</h2>
+        <SubHeading>Education</SubHeading>
         <p className="mt-3 text-xl">
           I finished my technical diploma in Economics & Management in 1999.
           After spending a year in community service (aka. Zivildienst) I
@@ -29,7 +30,7 @@ export default function Home() {
           at the same company to work on their B2B shop as a web developer.
         </p>
 
-        <h2 className="text-3xl font-bold mt-6">Work Experience</h2>
+        <SubHeading>Work Experience</SubHeading>
         <p className="mt-3 text-xl">
           Since 2003 I have been working in a 10-person team as lead frontend
           developer and UX designer – creating a B2B shop that is used
