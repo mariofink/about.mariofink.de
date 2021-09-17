@@ -1,4 +1,4 @@
-import Head from "next/head";
+import DocumentHead from "../components/DocumentHead";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import SubHeading from "../components/Subheading";
@@ -6,10 +6,7 @@ import SubHeading from "../components/Subheading";
 export default function Tech() {
   return (
     <div className="container mx-auto">
-      <Head>
-        <title>Mario Fink • Tools & Technologies</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <DocumentHead title="Mario Fink • Tools & Technologies" favicon="👨‍💻" />
 
       <Navigation />
 
