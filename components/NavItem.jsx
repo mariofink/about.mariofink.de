@@ -4,10 +4,14 @@ import { useRouter } from "next/router";
 const NavItem = ({ caption, href }) => {
   const router = useRouter();
   const activeClasses =
-    router.asPath === href ? "border-b-4 border-green-500 " : "text-green-500";
+    router.asPath === href ? "border-b-4 " : "hover:border-b-4 text-green-500";
   return (
     <Link href={href}>
-      <a className={`py-4 px-2 font-semibold ${activeClasses}`}>{caption}</a>
+      <a
+        className={`transition-all duration-100 ease-in-out py-4 px-2 font-semibold border-green-500 hover:scale-110 ${activeClasses}`}
+      >
+        {caption}
+      </a>
     </Link>
   );
 };
