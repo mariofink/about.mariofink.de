@@ -19,7 +19,8 @@ const Tech = () => (
       <SubHeading>Working with right now</SubHeading>
       <ul className="list-disc list-inside">
         <li>React</li>
-        <li>Redux & Redux Toolkit</li>
+        <li>Redux (with Redux Toolkit)</li>
+        <li>Web Components</li>
         <li>Webpack</li>
         <li>Adobe Experience Manager</li>
       </ul>

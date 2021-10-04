@@ -18,13 +18,20 @@ const CV = () => (
       <dl>
         <TabularEntry term="2003-today">
           <p className="pb-3">
-            Goodyear Dunlop Tires Germany GmbH, Fulda
+            <strong>Goodyear Dunlop Tires Germany GmbH, Fulda</strong>
             <br /> Web developer, UX Designer
           </p>
-          <h3 className="font-bold">Selected projects</h3>
+          <h3 className="font-bold">Selected work</h3>
           <ul className="list-disc list-outside">
+            <li>
+              Leading the frontend development team working on Goodyear’s B2C
+              eCommerce websites
+            </li>
+            <li>
+              Migrated legacy build environments from Grunt to Webpack to
+              enhance the developer experience
+            </li>
             <li>Retro-fitted responsive design for EMEA B2B platform</li>
-            <li>Createad tool to localise EMEA’s B2B platform</li>
             <li>
               Designed and developed Ionic-based mobile app for market research
               purposes
@@ -35,17 +42,17 @@ const CV = () => (
 
       <SubHeading>Education</SubHeading>
       <dl>
-        <TabularEntry term="1997-1999">
-          Richard Müller Schule, Fulda <br />
-          Fachabitur »Wirtschaft & Verwaltung«
+        <TabularEntry term="2000-2003">
+          <strong>Goodyear Dunlop Tires Germany GmbH, Fulda</strong> <br />
+          Apprenticeship IT specialist
         </TabularEntry>
         <TabularEntry term="1999-2000">
-          DJO Landesheim, Rodholz <br />
+          <strong>DJO Landesheim, Rodholz</strong> <br />
           Community service
         </TabularEntry>
-        <TabularEntry term="2000-2003">
-          Goodyear Dunlop Tires Germany GmbH, Fulda <br />
-          Apprenticeship IT specialist
+        <TabularEntry term="1997-1999">
+          <strong>Richard Müller Schule, Fulda</strong> <br />
+          Fachabitur »Wirtschaft & Verwaltung«
         </TabularEntry>
       </dl>
 
