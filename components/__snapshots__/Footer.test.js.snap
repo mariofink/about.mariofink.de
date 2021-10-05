@@ -69,7 +69,7 @@ exports[`Footer renders 1`] = `
      LinkedIn
   </a>
   <a
-    className="flex text-green-500 py-1"
+    className="flex text-green-500 py-l"
     href="mailto:info@mariofink.de"
   >
     <svg
