@@ -1,4 +1,5 @@
 import DocumentHead from "../components/DocumentHead";
+import Page from "../components/Page";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Heading from "../components/Heading";
@@ -12,7 +13,7 @@ const Paragraph = ({ children }: props) => (
 );
 
 const Home = () => (
-  <div className="container mx-auto">
+  <Page>
     <DocumentHead title="Mario Fink • About Me" favicon="👋🏻" />
 
     <Navigation />
@@ -55,7 +56,7 @@ const Home = () => (
     </main>
 
     <Footer />
-  </div>
+  </Page>
 );
 
 export default Home;

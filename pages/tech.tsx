@@ -3,9 +3,10 @@ import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import SubHeading from "../components/Subheading";
 import Heading from "../components/Heading";
+import Page from "../components/Page";
 
 const Tech = () => (
-  <div className="container mx-auto">
+  <Page>
     <DocumentHead title="Mario Fink • Tools & Technologies" favicon="👨‍💻" />
 
     <Navigation />
@@ -34,7 +35,7 @@ const Tech = () => (
     </main>
 
     <Footer />
-  </div>
+  </Page>
 );
 
 export default Tech;

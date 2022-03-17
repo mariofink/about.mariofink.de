@@ -4,9 +4,10 @@ import Footer from "../components/Footer";
 import SubHeading from "../components/Subheading";
 import TabularEntry from "../components/TabularEntry";
 import Heading from "../components/Heading";
+import Page from "../components/Page";
 
 const CV = () => (
-  <div className="container mx-auto">
+  <Page>
     <DocumentHead title="Mario Fink • About Me" favicon="📝" />
 
     <Navigation />
@@ -65,7 +66,7 @@ const CV = () => (
     </main>
 
     <Footer />
-  </div>
+  </Page>
 );
 
 export default CV;
