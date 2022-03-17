@@ -10,6 +10,7 @@ interface props {
  */
 const DocumentHead = ({ title, favicon }: props) => (
   <Head>
+    <html lang="en" />
     <title>{title}</title>
     <link
       rel="icon"
