@@ -1,9 +1,14 @@
 import Head from "next/head";
 
+interface props {
+  title: string;
+  favicon: string;
+}
+
 /**
  * Using this neat little trick here to use Emojis as favicons: https://css-tricks.com/emojis-as-favicons/
  */
-const DocumentHead = ({ title, favicon }) => (
+const DocumentHead = ({ title, favicon }: props) => (
   <Head>
     <title>{title}</title>
     <link

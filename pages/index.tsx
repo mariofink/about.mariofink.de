@@ -31,7 +31,7 @@ const Home = () => (
         includes Adobe Experience Manager, ReactJS, Redux (with Redux Toolkit)
         and Web Components.
       </Paragraph>
-      <hr class="mx-24 my-6" />
+      <hr className="mx-24 my-6" />
       <Paragraph>
         Since 2003 I have been working in a 10-person team as lead frontend
         developer and UX designer – creating a B2B shop that is used throughout

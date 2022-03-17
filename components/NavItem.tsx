@@ -1,7 +1,12 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const NavItem = ({ caption, href }) => {
+interface props {
+  caption: string;
+  href: string;
+}
+
+const NavItem = ({ caption, href }: props) => {
   const router = useRouter();
   const activeClasses =
     router.asPath === href ? "border-b-4 " : "hover:border-b-4 text-green-500";
