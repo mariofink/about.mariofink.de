@@ -4,7 +4,10 @@ import Footer from "../components/Footer";
 import Heading from "../components/Heading";
 import SubHeading from "../components/Subheading";
 
-const Paragraph = ({ children }) => (
+interface props {
+  children: React.ReactNode;
+}
+const Paragraph = ({ children }: props) => (
   <p className="mt-3 text-xl leading-relaxed">{children}</p>
 );
 
