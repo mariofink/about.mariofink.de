@@ -8,12 +8,12 @@ import Page from "../components/Page";
 
 const CV = () => (
   <Page>
-    <DocumentHead title="Mario Fink • About Me" favicon="📝" />
+    <DocumentHead title="Mario Fink • CV/Résumé" favicon="📝" />
 
     <Navigation />
 
     <main className="py-8 container mx-auto px-6 max-w-prose">
-      <Heading>CV/Resume</Heading>
+      <Heading>CV/Résumé</Heading>
 
       <SubHeading>Work Experience</SubHeading>
       <dl>
