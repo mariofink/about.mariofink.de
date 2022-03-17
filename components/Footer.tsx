@@ -1,5 +1,5 @@
 const iconBaseStyle = "w-6 h-6 mr-1";
-const color = "green-500";
+const color = "emerald-600";
 
 const MailIcon = () => (
   <svg
