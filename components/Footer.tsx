@@ -61,7 +61,7 @@ const LinkedInIcon = () => (
 const Footer = () => (
   <footer className="sm:flex text-emerald-500 sm:gap-6 sm:items-center sm:justify-center px-6 py-6 mx-auto max-w-prose sm:h-24 border-t">
     <a
-      className={`flex py-1`}
+      className={`flex py-3`}
       href="//mariofink.de"
       target="_blank"
       rel="noopener noreferrer"
@@ -69,7 +69,7 @@ const Footer = () => (
       <HomeIcon /> MarioFink.de
     </a>
     <a
-      className={`flex py-1`}
+      className={`flex py-3`}
       href="//github.com/mariofink"
       target="_blank"
       rel="noopener noreferrer"
@@ -77,14 +77,14 @@ const Footer = () => (
       <GithubIcon /> GitHub
     </a>
     <a
-      className={`flex py-1`}
+      className={`flex py-3`}
       href="//www.linkedin.com/in/mariofink/"
       target="_blank"
       rel="noopener noreferrer"
     >
       <LinkedInIcon /> LinkedIn
     </a>
-    <a className={`flex py-l`} href="mailto:info@mariofink.de">
+    <a className={`flex py-3`} href="mailto:info@mariofink.de">
       <MailIcon /> info@mariofink.de
     </a>
   </footer>
