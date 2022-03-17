@@ -1,5 +1,4 @@
 const iconBaseStyle = "w-6 h-6 mr-1";
-const color = "emerald-600";
 
 const MailIcon = () => (
   <svg
@@ -37,7 +36,7 @@ const HomeIcon = () => (
 
 const GithubIcon = () => (
   <svg
-    className={`${iconBaseStyle} fill-current text-${color}`}
+    className={`${iconBaseStyle} fill-current`}
     role="img"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +48,7 @@ const GithubIcon = () => (
 
 const LinkedInIcon = () => (
   <svg
-    className={`${iconBaseStyle} fill-current text-${color}`}
+    className={`${iconBaseStyle} fill-current`}
     role="img"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
@@ -60,9 +59,9 @@ const LinkedInIcon = () => (
 );
 
 const Footer = () => (
-  <footer className="sm:flex sm:gap-6 sm:items-center sm:justify-center px-6 py-6 mx-auto max-w-prose sm:h-24 border-t">
+  <footer className="sm:flex text-emerald-500 sm:gap-6 sm:items-center sm:justify-center px-6 py-6 mx-auto max-w-prose sm:h-24 border-t">
     <a
-      className={`flex text-${color} py-1`}
+      className={`flex py-1`}
       href="//mariofink.de"
       target="_blank"
       rel="noopener noreferrer"
@@ -70,7 +69,7 @@ const Footer = () => (
       <HomeIcon /> MarioFink.de
     </a>
     <a
-      className={`flex text-${color} py-1`}
+      className={`flex py-1`}
       href="//github.com/mariofink"
       target="_blank"
       rel="noopener noreferrer"
@@ -78,14 +77,14 @@ const Footer = () => (
       <GithubIcon /> GitHub
     </a>
     <a
-      className={`flex text-${color} py-1`}
+      className={`flex py-1`}
       href="//www.linkedin.com/in/mariofink/"
       target="_blank"
       rel="noopener noreferrer"
     >
       <LinkedInIcon /> LinkedIn
     </a>
-    <a className={`flex text-${color} py-l`} href="mailto:info@mariofink.de">
+    <a className={`flex py-l`} href="mailto:info@mariofink.de">
       <MailIcon /> info@mariofink.de
     </a>
   </footer>
