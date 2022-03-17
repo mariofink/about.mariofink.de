@@ -2,10 +2,10 @@
 
 exports[`Footer renders 1`] = `
 <footer
-  className="sm:flex sm:gap-6 sm:items-center sm:justify-center px-6 py-6 mx-auto max-w-prose sm:h-24 border-t"
+  className="sm:flex text-emerald-500 sm:gap-6 sm:items-center sm:justify-center px-6 py-6 mx-auto max-w-prose sm:h-24 border-t"
 >
   <a
-    className="flex text-green-500 py-1"
+    className="flex py-3"
     href="//mariofink.de"
     rel="noopener noreferrer"
     target="_blank"
@@ -27,13 +27,13 @@ exports[`Footer renders 1`] = `
      MarioFink.de
   </a>
   <a
-    className="flex text-green-500 py-1"
+    className="flex py-3"
     href="//github.com/mariofink"
     rel="noopener noreferrer"
     target="_blank"
   >
     <svg
-      className="w-6 h-6 mr-1 fill-current text-green-500"
+      className="w-6 h-6 mr-1 fill-current"
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -48,13 +48,13 @@ exports[`Footer renders 1`] = `
      GitHub
   </a>
   <a
-    className="flex text-green-500 py-1"
+    className="flex py-3"
     href="//www.linkedin.com/in/mariofink/"
     rel="noopener noreferrer"
     target="_blank"
   >
     <svg
-      className="w-6 h-6 mr-1 fill-current text-green-500"
+      className="w-6 h-6 mr-1 fill-current"
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ exports[`Footer renders 1`] = `
      LinkedIn
   </a>
   <a
-    className="flex text-green-500 py-l"
+    className="flex py-3"
     href="mailto:info@mariofink.de"
   >
     <svg
