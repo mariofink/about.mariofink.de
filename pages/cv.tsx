@@ -25,17 +25,22 @@ const CV = () => (
           <h3 className="font-bold">Selected work</h3>
           <ul className="list-disc list-outside">
             <li>
+              Conceptualise and lead the migration of an existing React legacy
+              application to a modern tech-stack based on create-react-app and
+              TypeScript.
+            </li>
+            <li>
               Leading the frontend development team working on Goodyear’s B2C
-              eCommerce websites
+              eCommerce websites.
             </li>
             <li>
               Migrated legacy build environments from Grunt to Webpack to
-              enhance the developer experience
+              enhance the developer experience.
             </li>
-            <li>Retro-fitted responsive design for EMEA B2B platform</li>
+            <li>Retro-fitted responsive design for EMEA B2B platform.</li>
             <li>
               Designed and developed Ionic-based mobile app for market research
-              purposes
+              purposes.
             </li>
           </ul>
         </TabularEntry>

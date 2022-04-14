@@ -32,8 +32,8 @@ const Home = () => (
         Since 2019 I have been leading the frontend development team working on
         Goodyear’s B2C shop. For that I am driving the clientside architecture
         as well as advising and reviewing external developers. The tech-stack
-        includes Adobe Experience Manager, ReactJS, Redux (with Redux Toolkit)
-        and Web Components.
+        includes Adobe Experience Manager, ReactJS, Redux, TypeScript, Tailwind
+        CSS and Web Components.
       </Paragraph>
       <hr className="mx-24 my-6" />
       <Paragraph>

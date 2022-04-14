@@ -7,7 +7,7 @@ import Page from "../components/Page";
 
 const Tech = () => (
   <Page>
-    <DocumentHead title="Mario Fink • Tools & Technologies" favicon="👨‍💻" />
+    <DocumentHead title="Mario Fink • Tools &amp; Technologies" favicon="👨‍💻" />
 
     <Navigation />
 
@@ -21,6 +21,7 @@ const Tech = () => (
       <ul className="list-disc list-inside">
         <li>React</li>
         <li>Redux (with Redux Toolkit)</li>
+        <li>TypeScript</li>
         <li>Web Components</li>
         <li>Webpack</li>
         <li>Adobe Experience Manager</li>
