@@ -19,7 +19,7 @@ const CV = () => (
       <dl>
         <TabularEntry term="2003-today">
           <p className="pb-3">
-            <strong>Goodyear Dunlop Tires Germany GmbH, Fulda</strong>
+            <strong>Goodyear Germany GmbH, Fulda</strong>
             <br /> Web developer
           </p>
           <h3 className="font-bold">Selected work</h3>
