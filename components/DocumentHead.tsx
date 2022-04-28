@@ -10,7 +10,6 @@ interface props {
  */
 const DocumentHead = ({ title, favicon }: props) => (
   <Head>
-    <html lang="en" />
     <title>{title}</title>
     <meta name="description" content="Mario Fink • Web developer from Fulda" />
     <link
