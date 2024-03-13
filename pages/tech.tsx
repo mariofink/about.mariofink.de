@@ -15,7 +15,7 @@ const Tech = () => (
       <Heading>Tools & Technologies</Heading>
       <p className="mt-6">
         The frontend development world is still a fast-changing environment.
-        Today’s hot stuff is tomorrow’s legacy technology.
+        Todays hot stuff is tomorrows legacy technology.
       </p>
       <SubHeading>Working with right now</SubHeading>
       <ul className="list-disc list-inside">
