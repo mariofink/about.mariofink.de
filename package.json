@@ -2,9 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "jest && next build && next export",
+    "build": "jest && next build",
     "start": "next start",
-    "export": "next export",
     "test": "jest --watch"
   },
   "dependencies": {
