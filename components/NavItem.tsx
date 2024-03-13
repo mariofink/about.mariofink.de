@@ -13,12 +13,11 @@ const NavItem = ({ caption, href }: props) => {
       ? "border-b-4 "
       : "hover:border-b-4 text-emerald-500";
   return (
-    <Link href={href}>
-      <a
-        className={`transition-all duration-100 ease-in-out py-4 px-2 font-semibold border-emerald-500 hover:scale-110 ${activeClasses}`}
-      >
-        {caption}
-      </a>
+    <Link
+      href={href}
+      className={`transition-all duration-100 ease-in-out py-4 px-2 font-semibold border-emerald-500 hover:scale-110 ${activeClasses}`}
+    >
+      {caption}
     </Link>
   );
 };
