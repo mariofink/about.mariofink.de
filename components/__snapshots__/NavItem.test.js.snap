@@ -1,13 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`NavItem renders 1`] = `
-<a
-  className="transition-all duration-100 ease-in-out py-4 px-2 font-semibold border-emerald-500 hover:scale-110 border-b-4 "
-  href="/"
-  onClick={[Function]}
-  onMouseEnter={[Function]}
-  onTouchStart={[Function]}
->
-  my caption
-</a>
+<div>
+  <a
+    class="transition-all duration-100 ease-in-out py-4 px-2 font-semibold border-emerald-500 hover:scale-110 border-b-4 "
+    href="/"
+  >
+    my caption
+  </a>
+</div>
 `;

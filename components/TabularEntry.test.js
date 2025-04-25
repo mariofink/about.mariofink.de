@@ -1,12 +1,12 @@
 import React from "react";
-import renderer from "react-test-renderer";
+import { render } from "@testing-library/react";
 import TabularEntry from "./TabularEntry";
 
-describe("Subheading", () => {
+describe("TabularEntry", () => {
   it("renders", () => {
-    const tree = renderer
-      .create(<TabularEntry term="My Term">My description</TabularEntry>)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    const { container } = render(
+      <TabularEntry term="My Term">My description</TabularEntry>
+    );
+    expect(container).toMatchSnapshot();
   });
 });

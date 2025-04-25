@@ -1,10 +1,11 @@
 import React from "react";
-import renderer from "react-test-renderer";
+import { render, screen } from "@testing-library/react";
 import Heading from "./Heading";
 
 describe("Heading", () => {
   it("renders the main page heading", () => {
-    const tree = renderer.create(<Heading>My Heading</Heading>).toJSON();
-    expect(tree).toMatchSnapshot();
+    render(<Heading>My Heading</Heading>);
+    const headingElement = screen.getByText("My Heading");
+    expect(headingElement).toBeInTheDocument();
   });
 });

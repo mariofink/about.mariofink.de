@@ -1,35 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Navigation renders 1`] = `
-<nav
-  className="flex justify-center sm:gap-6 sm:px-6 mt-3"
->
-  <a
-    className="transition-all duration-100 ease-in-out py-4 px-2 font-semibold border-emerald-500 hover:scale-110 border-b-4 "
-    href="/"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-    onTouchStart={[Function]}
+<div>
+  <nav
+    class="flex justify-center sm:gap-6 sm:px-6 mt-3"
   >
-    About Me
-  </a>
-  <a
-    className="transition-all duration-100 ease-in-out py-4 px-2 font-semibold border-emerald-500 hover:scale-110 hover:border-b-4 text-emerald-500"
-    href="/cv"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-    onTouchStart={[Function]}
-  >
-    CV/Résumé
-  </a>
-  <a
-    className="transition-all duration-100 ease-in-out py-4 px-2 font-semibold border-emerald-500 hover:scale-110 hover:border-b-4 text-emerald-500"
-    href="/tech"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-    onTouchStart={[Function]}
-  >
-    Tools & Tech
-  </a>
-</nav>
+    <a
+      class="transition-all duration-100 ease-in-out py-4 px-2 font-semibold border-emerald-500 hover:scale-110 border-b-4 "
+      href="/"
+    >
+      About Me
+    </a>
+    <a
+      class="transition-all duration-100 ease-in-out py-4 px-2 font-semibold border-emerald-500 hover:scale-110 hover:border-b-4 text-emerald-500"
+      href="/cv"
+    >
+      CV/Résumé
+    </a>
+    <a
+      class="transition-all duration-100 ease-in-out py-4 px-2 font-semibold border-emerald-500 hover:scale-110 hover:border-b-4 text-emerald-500"
+      href="/tech"
+    >
+      Tools & Tech
+    </a>
+  </nav>
+</div>
 `;

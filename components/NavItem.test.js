@@ -1,5 +1,5 @@
 import React from "react";
-import renderer from "react-test-renderer";
+import { render } from "@testing-library/react";
 import NavItem from "./NavItem";
 
 /**
@@ -9,9 +9,7 @@ jest.mock("next/dist/client/router", () => require("next-router-mock"));
 
 describe("NavItem", () => {
   it("renders", () => {
-    const tree = renderer
-      .create(<NavItem caption="my caption" href="/" />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    const { container } = render(<NavItem caption="my caption" href="/" />);
+    expect(container).toMatchSnapshot();
   });
 });

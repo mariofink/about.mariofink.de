@@ -1,5 +1,5 @@
 import React from "react";
-import renderer from "react-test-renderer";
+import { render } from "@testing-library/react";
 import Navigation from "./Navigation";
 
 /**
@@ -10,7 +10,7 @@ jest.mock("next/dist/client/router", () => require("next-router-mock"));
 
 describe("Navigation", () => {
   it("renders", () => {
-    const tree = renderer.create(<Navigation />).toJSON();
-    expect(tree).toMatchSnapshot();
+    const { container } = render(<Navigation />);
+    expect(container).toMatchSnapshot();
   });
 });

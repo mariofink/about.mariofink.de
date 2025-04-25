@@ -1,9 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Subheading renders 1`] = `
-<h2
-  className="mt-6 mb-3 text-3xl font-bold"
->
-  My Subheading
-</h2>
+<div>
+  <h2
+    class="mt-6 mb-3 text-3xl font-bold"
+  >
+    My Subheading
+  </h2>
+</div>
 `;
